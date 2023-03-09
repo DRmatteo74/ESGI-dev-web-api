@@ -75,7 +75,7 @@ console.log("Exercice 8 :");
 const mois = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Décembre"];
 console.log(mois[2]);
 
-// Exercice 9 :
+// Exercice 9 : Valeur min et max dans un tableau
 console.log("Exercice 9 :");
 let nombreAleatoire = [];
 for (let i = 0; i < 10; i++) {
@@ -85,7 +85,7 @@ for (let i = 0; i < 10; i++) {
 nombreAleatoire.sort()
 console.log("Valeur min: " + nombreAleatoire[0] + " max: " + nombreAleatoire[nombreAleatoire.length -1]);
 
-// Exercice 10 : 
+// Exercice 10 : Phrase la plus longue
 console.log("Exercice 10 :");
 const phrase = [
     "Salut ça va ?",
